@@ -25,6 +25,20 @@
     </div>
   </div>
     
+  <div class="job-section">
+    <div class="header">
+      <h2>Available Jobs</h2>
+      <span id="jobCount">0</span>
+    </div>
+
+    <div class="tabs">
+      <button onclick="setTab('all')" id="tab-all" class="active">All</button>
+      <button onclick="setTab('interview')" id="tab-interview">Interview</button>
+      <button onclick="setTab('rejected')" id="tab-rejected">Rejected</button>
+    </div>
+
+    <div id="jobContainer" class="jobs"></div>
+  </div>
 
     <script src="script.js"></script>
 </body>
