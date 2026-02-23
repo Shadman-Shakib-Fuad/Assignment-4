@@ -157,3 +157,20 @@ body {
   background: #333;
   color: white;
 }
+
+.btn-delete:hover {
+  background: black;
+  transform: scale(1.05);
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+  color: gray;
+}
+
+@media(max-width: 768px){
+  .dashboard {
+    flex-direction: column;
+  }
+}
